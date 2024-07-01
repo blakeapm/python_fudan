@@ -6,8 +6,8 @@ Welcome, dear culinary friends, to the charming world of Julia Child! This repos
 
 - **`julia_tarte_aux_pommes/`**
   - **`data/`**
+    - **`serialized_data/`** - A refrigerator of sorts, where we store our creations for later use and repurposing.
     - `ingredients.csv` - A delightful list of everything you'll need to create Julia's iconic Tarte aux Pommes.
-    - `tools.csv` - A catalog of kitchen tools that Julia herself would approve of, all laid out for your baking ease.
   - **`code/`**
     - `01_prepare_pastry.py` - Begins our baking ballet by preparing the flaky, buttery pastry.
     - `02_prepare_apples.py` - Dives into the heart of the tart, slicing and pre-cooking the apples.
