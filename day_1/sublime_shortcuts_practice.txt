@@ -1,0 +1,121 @@
+###############################################################################
+#                                                                             #
+#    DAY 1: SUBLIME TEXT SHORTCUTS PRACTICE                                   #
+#                                                                             #
+#                                                                             #
+#    1. In Sublime text you can select the word your cursor is on using       #
+#    CTRL/Command-D. Click on the word "chickens" in this poem. Select the    #
+#    whole word using the CTRL/Command+D shortcut.                            #
+#                                                                             #
+#    2. With the word selected, use the right arrow key to move the cursor to #
+#    the end of the word "chickens." Add a period.                            #
+#                                                                             #
+###############################################################################
+
+The Red Wheelbarrow 
+by William Carlos Williams
+
+so much depends
+upon
+
+a red wheel
+barrow
+
+glazed with rain
+water
+
+beside the white
+chickens
+
+###############################################################################
+#                                                                             #
+#    In these exercises we'll change the spelling for colors/colours back     #
+#    and forth from the American spelling (color) to the British spelling     #
+#    (colours)                                                                #
+#                                                                             #
+#    3. Click on the first use of "colors" in the song "Colors of the Wind"   #
+#    from the Disney movie Pocahontas. Use CTRL/Command+D to select the word. #
+#    Once selected, press CTRL/Command+D again until all of the words "colors"#
+#    are selected. Use the right arrow and navigate to after the letter "o"   #
+#    and add a "u" to change to the British spelling.                         #
+#                                                                             #
+#    4. Use the Sublime Text multi-select feature to select each American     #
+#    spelling of "colors" and change it back to the British spelling          #
+#    "colours." Use "CTRL/command+double click" to select each of the words   #
+#    "colors" one at a time and press the right arrow button to move to the   #
+#    end of the selected words all at once. Use the left arrow button to      #
+#    navigate to just after the letter "o" and add a "u" after it.            #
+#                                                                             #
+#    5. Now do a search for "colours." Use CTRL/Command+F to pull up search   #
+#    click "Find All," and change them back to American spellings. Once they  #
+#    are selected, press the right arrow and navigate to the letter "u" and   #
+#    press backspace                                                          #
+#                                                                             #
+###############################################################################
+
+Have you ever heard the wolf cry to the blue corn moon?
+Or asked the grinning bobcat why he grinned?
+Can you sing with all the voices of the mountain?
+Can you paint with all the colors of the wind?
+Can you paint with all the colors of the wind?
+...
+And you'll never hear the wolf cry to the blue corn moon
+For whether we are white or copper skinned
+We need to sing with all the voices of the mountain
+We need to paint with all the colors of the wind
+
+You can own the Earth and still
+All you'll own is Earth until
+You can paint with all the colors of the wind
+
+###############################################################################
+#                                                                             #
+#    6. In Sublime Text, you can delete everything after the cursor. Do so by #
+#    pressing CTRL/Command + K twice. Do this for the sentence below, keeping #
+#    the first sentence and removing the second.                              #
+#                                                                             #
+#    7. You can duplicate rows using CTRL/Command+Shift+D. Duplicate the      #
+#    sentence five times.                                                     #
+#                                                                             #
+#    8. Click on one line and press CTRL/Command+L to select the whole line.  #
+#                                                                             #
+###############################################################################
+
+Some text that I want. Some text that I don't want.
+
+###############################################################################
+#                                                                             #
+#    9. In Sublime Text, you can select all rows at once with                 #
+#    CTRL/Command+Shift+L, which can be useful if dealing with Python objects #
+#    like lists or dictionaries. Below is a data structure called a list of   #
+#    tuples in Python, which we will cover in detail in a few days. From this #
+#    list we want to create two lists of odd numbers (first element in each   #
+#    tuple) and even numbers (second element in each tuple). To do this:      #
+#         1. Select each row at once using CTRL/Command+Shift+L               #
+#         2. Press the left arrow key to go to the beginning of the row.      #
+#         3. Move the right cursor to just after the "("                      #
+#         4. Press CTRL/Command+D to highlight the numbers                    #
+#         5. Press CTRL+C to copy them                                        #
+#         6. Paste them on a new line with CTRL+V                             #
+#         7. Select the second to fifth rows of numbers you pasted at once    #
+#         using CTRL/Command+Shift+L                                          #
+#         8. Press the left arrow key to go to the beginning of the row.      #
+#         9. Press backspace, add a space, and add a ","                      #
+#         10. Select the comma-separated numbers and press "[" to wrap in     #
+#         brackets                                                            #
+#         11. Repeat for the even number list.                                #
+#                                                                             #
+###############################################################################
+
+list_of_tuples = [
+    (1,2),
+    (3,4),
+    (5,6),
+    (7,8),
+    (9,10)
+]
+
+Expected result:
+
+[1, 3, 5, 7, 9]
+[2, 4, 6, 8, 10]
