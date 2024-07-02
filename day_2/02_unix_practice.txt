@@ -1,0 +1,79 @@
+###############################################################################
+#                                                                             #
+#    1. Open your Unix shell (Terminal on Mac/Linux, Git Bash on Windows).    #
+#                                                                             #
+#                                                                             #
+#    2. Use the `pwd` command to print the current working directory.         #
+#       What is the output?                                                   #
+#                                                                             #
+###############################################################################
+
+###############################################################################
+#                                                                             #
+#    3. Use the `ls` command to list the contents of the current directory.   #
+#       What files and directories do you see?                                #
+#                                                                             #
+###############################################################################
+
+###############################################################################
+#                                                                             #
+#    4. Navigate to your Documents folder (or somewhere you want to store     #
+#	 your school files. Create a new directory called `unix_practice` using   #
+#    the `mkdir` command.                                                     #
+#                                                                             #
+###############################################################################
+
+###############################################################################
+#                                                                             #
+#    5. Navigate into the `unix_practice` directory using the `cd` command.   #
+#                                                                             #
+###############################################################################
+
+###############################################################################
+#                                                                             #
+#    6. Inside `unix_practice`, create an empty file called `test.txt` using  #
+#       the `touch` command.                                                  #
+#                                                                             #
+#                                                                             #
+#    7. List the contents of the `unix_practice` directory to verify that     #
+#       `test.txt` was created.                                               #
+#                                                                             #
+#    8. Use the `echo` command to add the text "Hello, Unix!" to `test.txt`.  #
+#       Example: `echo "Hello, Unix!" > test.txt`                             #
+#                                                                             #
+#    9. Use the `cat` command to display the contents of `test.txt`. What do  #
+#       you see?                                                              #
+#                                                                             #
+###############################################################################
+
+###############################################################################
+#                                                                             #
+#    10. Create another directory called `backup` inside `unix_practice`.     #
+#                                                                             #
+#    11. Copy `test.txt` to the `backup` directory using the `cp` command.    #
+#                                                                             #
+#    12. Navigate to the `backup` directory and list its contents. Do you see #
+#        `test.txt`?                                                          #
+#                                                                             #
+#    13. Rename `test.txt` to `test_backup.txt` using the `mv` command.       #
+#                                                                             #
+#    14. List the contents of the `backup` directory again to verify the      #
+#        rename.                                                              #
+#                                                                             #
+###############################################################################
+
+###############################################################################
+#                                                                             #
+#    15. Navigate back to the `unix_practice` directory.                      #
+#                                                                             #
+#    16. Remove the `test.txt` file using the `rm` command.                   #
+#                                                                             #
+#    17. List the contents of `unix_practice` to ensure `test.txt` is gone.   #
+#                                                                             #
+#    18. Remove the `backup` directory and all its contents using the `rm`    #
+#        command with the `-r` option. Example: `rm -r backup`                #
+#                                                                             #
+#    19. List the contents of `unix_practice` again to verify `backup` is     #
+#        gone.                                                                #
+#                                                                             #
+###############################################################################
