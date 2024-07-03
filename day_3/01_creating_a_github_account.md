@@ -100,4 +100,3 @@ Before you start working with Git, it's crucial to configure your Git identity. 
    git config --list
    ```
    This command will list all settings Git has configured, including your username and email.
-```
