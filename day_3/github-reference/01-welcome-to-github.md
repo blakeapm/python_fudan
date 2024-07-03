@@ -1,5 +1,7 @@
 # Welcome to GitHub!
 
+(adapted and borrowed heavily from Sian Brooke)
+
 GitHub is a code sharing site for programmers. Think of it as a combination of a cloud storage platform and a back-up service for all of your Computer Programming needs. Whilst there are virtual learning environments (such as Moodle) that are used throughout the University, learning GitHub is a fundamental part of collaboration in computational projects.
 We will be using GitHub throughout the course so it’s important we make sure you are familiar with how it works. 
 

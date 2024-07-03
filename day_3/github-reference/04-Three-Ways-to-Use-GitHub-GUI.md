@@ -1,5 +1,7 @@
 # Three Ways to Use GitHub: GitKracken and GitHub Desktop GUIs
 
+(adapted and borrowed heavily from Sian Brooke)
+
 This document lays out the main ways that GitHub can be used by staff and students. These guides are brief, focusing on getting started with each way of using the platform. The three approaches are listed in order of complexity, starting with the **web interface**, then to **GitKracken**, and finally to the **command line**. 
 
 **GitHub Desktop** is a Git Graphic User Interface (GUI) for Widows (7+), Mac, and Linux. It is a alternative to the the web interface, but works in a simular manner on your local computer.

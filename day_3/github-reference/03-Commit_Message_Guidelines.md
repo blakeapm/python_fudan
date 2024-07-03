@@ -1,5 +1,7 @@
 # Commit Message Guidelines
 
+(adapted and borrowed heavily from Sian Brooke)
+
 The text here is adpated from the a series of guidelines provided by Software Developers who use GitHub as part of their everday work flow. 
 
 <img src="https://imgs.xkcd.com/comics/git_commit_2x.png" height="200">

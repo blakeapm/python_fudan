@@ -1,5 +1,7 @@
 # Three Ways to Use GitHub: Web Interface
 
+(adapted and borrowed heavily from Sian Brooke)
+
 This document lays out the main ways that GitHub can be used by staff and students. These guides are brief, focusing on getting started with each way of using the platform. The three approaches are listed in order of complexity, starting with the **web interface**, then to **GitKracken**, and finally to the **command line**. 
 
 GitKracken is a Git Graphic User Interface (GUI) for Widows, Mac, and Linux. Students can get the Pro-licence for free through the GitHub Students Developer Pack.

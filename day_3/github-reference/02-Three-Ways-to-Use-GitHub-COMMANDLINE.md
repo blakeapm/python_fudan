@@ -1,4 +1,7 @@
 # Three Ways to Use GitHub: Command Line
+
+(adapted and borrowed heavily from Sian Brooke)
+
 This document lays out the main ways that GitHub can be used.
 
 This guide covers everything you need to know to interact with GitHub. **You can skip to the relevant section if you are stuck with a particular task.** Section 5 is advanced difficulty, intended to show you what is possible when working with GitHUb. The topics covered in this document are:
