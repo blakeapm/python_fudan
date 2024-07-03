@@ -27,6 +27,7 @@
 - If files named `id_rsa` and `id_rsa.pub` exist, you already have SSH keys. If you know the password, skip the next step; otherwise, create a new key.
 
 ## Step 2: Generate a New SSH Key
+- Navigate to the folder `.ssh` with `cd ~/.ssh`, if it doesn't exist create the directory with `mkdir ~/.ssh` and then navigate to the folder with `~/.ssh`
 - If you don't have an SSH key called `id_rsa`, generate a new one:
   ```bash
   ssh-keygen -t rsa -b 4096 -C "email@example.com"
@@ -99,4 +100,3 @@ Before you start working with Git, it's crucial to configure your Git identity. 
    git config --list
    ```
    This command will list all settings Git has configured, including your username and email.
-```

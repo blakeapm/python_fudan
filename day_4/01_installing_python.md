@@ -22,6 +22,9 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
    - Run `xcode-select --install` in Terminal.
 3. **Install Homebrew**:
    - Paste the installation command from the [Homebrew website](https://brew.sh) into Terminal.
+   - Follow `Next steps` in the brew installation output. Depending on your Mac OS version, it will be different, but it should look like (**MAKE SURE TO CHANGE your-username to your actual username**):
+        - `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/your-username/.zprofile`
+        - `eval "$(/opt/homebrew/bin/brew shellenv)"`
    - Alternatively, download the Homebrew installer [here](https://github.com/Homebrew/brew/releases/tag/4.3.6).
 4. **Install Sublime Text**:
    - Download and install Sublime Text from the [official Sublime Text website](https://www.sublimetext.com).
@@ -29,7 +32,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
 5. **Install Python 3 Using Homebrew**:
    - In Terminal, run `brew install python`.
 6. **Verify Python Installation**:
-   - In Terminal, run `python3 --version` to ensure Python 3 is accessible.
+   - In Terminal, run `python3 --version` to ensure Python 3 is accessible. Make sure you see the folder `homebrew` in the outputted path. If not, come see me.
 
 ## Additional Resources
 
