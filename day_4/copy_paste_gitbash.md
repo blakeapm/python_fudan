@@ -30,12 +30,13 @@ This method allows you to efficiently copy and paste text using Git Bash, facili
 
 In Git Bash on Windows, the `start` command in Windows can be used to open a folder with the default file manager, which is Windows Explorer.
 
-     ```bash
-     start .
-     ```
-     This will open the current directory in Windows Explorer. You can also specify a path:
-     ```bash
-     start /path/to/directory
-     ```
+```bash
+start .
+```
+This will open the current directory in Windows Explorer. You can also specify a path:
+
+```bash
+start /path/to/directory
+```
 
 This offers the same functionality as `open .` or `open /path/to/directory` in Mac OS:
