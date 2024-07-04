@@ -1,4 +1,4 @@
-# How to Copy and Paste in Git Bash
+# How to Copy and Paste and More in Git Bash
 
 This guide explains how to enable and use copy and paste functionality in Git Bash using shortcut keys.
 
@@ -25,3 +25,17 @@ This guide explains how to enable and use copy and paste functionality in Git Ba
 - **To Paste**: Click where you want to paste the text and press `Ctrl+Shift+Ins`.
 
 This method allows you to efficiently copy and paste text using Git Bash, facilitating better workflow and data transfer between the terminal and other applications.
+
+## Opening a File or Folder in Windows Explorer
+
+In Git Bash on Windows, the `start` command in Windows can be used to open a folder with the default file manager, which is Windows Explorer.
+
+     ```bash
+     start .
+     ```
+     This will open the current directory in Windows Explorer. You can also specify a path:
+     ```bash
+     start /path/to/directory
+     ```
+
+This offers the same functionality as `open .` or `open /path/to/directory` in Mac OS:
