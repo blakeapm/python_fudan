@@ -24,7 +24,14 @@
    ```
 
 #### Step 4: Push Changes to GitHub
-1. **Push** your local commits to the main branch on GitHub. This action uploads your changes to the remote repository.
+1. **Pull** the latest changes from the main branch. This step is especially useful if multiple people are working on the project and you want to make sure your local repository is up to date.
+   ```bash
+   git pull origin main
+   ```
+   If you run into an error, run:
+   ```bash
+   git pull --rebase origin main
+2. **Push** your local commits to the main branch on GitHub. This action uploads your changes to the remote repository.
    ```bash
    git push origin main
    ```
