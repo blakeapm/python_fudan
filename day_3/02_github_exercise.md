@@ -16,7 +16,7 @@
 #### Step 3: Commit Changes Locally
 1. **Stage your changes** for committing. This action prepares your changes for a commit.
    ```bash
-   git add <filename>  # Replace <filename> with your assigned file, e.g., i_rise_1.txt
+   git add filename  # Replace filename with your assigned file, e.g., i_rise_1.txt
    ```
 2. **Commit** your changes locally with a descriptive message. This command records your changes in your local repository.
    ```bash
