@@ -31,11 +31,17 @@ open ~/.bash_profile # for bash users
 If the file does not exist, create it:
 ```sh
 touch ~/.zshrc # for zsh
-open ~/.zshrc
 ```
 ```sh
 touch ~/.bash_profile # for bash
-open ~/.bash_profile
+```
+
+Then open it again: 
+```sh
+open ~/.zshrc # for zsh
+```
+```sh
+open ~/.bash_profile # for bash
 ```
 
 ## Step 4: Add Sublime Text Alias and Path
