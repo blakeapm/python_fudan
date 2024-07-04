@@ -21,27 +21,39 @@ Enter your password when prompted.
 ## Step 3: Edit the Shell Configuration File
 
 Open your shell configuration file based on your shell type from Step 1:
+
+For zsh users:
 ```sh
-open ~/.zshrc # for zsh users
+open ~/.zshrc
 ```
+
+For bash users:
 ```sh
-open ~/.bash_profile # for bash users
+open ~/.bash_profile
 ```
 
 If the file does not exist, create it:
+
+For zsh:
 ```sh
-touch ~/.zshrc # for zsh
+touch ~/.zshrc
 ```
+
+For bash:
 ```sh
-touch ~/.bash_profile # for bash
+touch ~/.bash_profile
 ```
 
 Then open it again: 
+
+For zsh:
 ```sh
-open ~/.zshrc # for zsh
+open ~/.zshrc
 ```
+
+For bash:
 ```sh
-open ~/.bash_profile # for bash
+open ~/.bash_profile
 ```
 
 ## Step 4: Add Sublime Text Alias and Path
@@ -56,9 +68,15 @@ Save the file and close the editor.
 ## Step 5: Reload the Configuration File
 
 Apply the changes by sourcing your configuration file:
+
+For zsh:
 ```sh
-source ~/.zshrc # for zsh
-source ~/.bash_profile # for bash
+source ~/.zshrc
+```
+
+For bash:
+```sh
+source ~/.bash_profile
 ```
 
 ## Step 6: Test Sublime Text Command
