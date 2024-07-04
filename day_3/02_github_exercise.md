@@ -39,6 +39,10 @@
    ```bash
    git pull origin main
    ```
+   If you run into an error, run:
+   ```bash
+   git pull --rebase origin main
+   ```
 
 #### Step 7: View Changes Locally
 1. **Check the status** of your local repository to see which files have changed.
