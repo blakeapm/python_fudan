@@ -91,11 +91,11 @@ Learn how to configure Git Bash to open files in Sublime Text using the command 
     - Click "New" and add the path to Sublime Text's installation directory from step 1.
     - Click "OK" to close all windows.
 
-## Step 3: Verify PATH Configuration
+## Step 2: Verify PATH Configuration
 1. Open Git Bash.
 2. Type `subl` and press Enter.
 3. Sublime Text should open.
 
-## Step 5: Launch Sublime Text Using the Alias
+## Step 3: Launch Sublime Text Using the Alias
 1. Now you can open files in Sublime Text from Git Bash using the alias.
 2. Example: `subl myfile.txt`
