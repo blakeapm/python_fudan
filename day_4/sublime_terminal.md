@@ -1,56 +1,66 @@
 # Launching Sublime Text from Terminal on Mac
 
-## Step 1: Create a Symlink for Sublime Text
+## Step 1: Check Your Shell Version in Terminal
 
-Open your Terminal app and run the following command to create a symlink for Sublime Text:
+Open your terminal and type the following command:
+```sh
+echo $SHELL
+```
+This command displays the path of the shell executable, indicating which shell you are using in Terminal:
+- `/bin/zsh` for zsh
+- `/bin/bash` for bash
 
+## Step 2: Create a Symlink for Sublime Text
+
+Run this command in your Terminal:
 ```sh
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 ```
-
 Enter your password when prompted.
 
-## Step 2: Check if `.bash_profile` Exists
+## Step 3: Edit the Shell Configuration File
 
-Check if the `.bash_profile` file exists:
-
+Open your shell configuration file based on your shell type from Step 1:
 ```sh
+open ~/.zshrc # for zsh users
+```
+```sh
+open ~/.bash_profile # for bash users
+```
+
+If the file does not exist, create it:
+```sh
+touch ~/.zshrc # for zsh
+open ~/.zshrc
+```
+```sh
+touch ~/.bash_profile # for bash
 open ~/.bash_profile
 ```
 
-If you see an error indicating that the file does not exist, create it using the following command:
+## Step 4: Add Sublime Text Alias and Path
 
-```sh
-touch ~/.bash_profile
-open ~/.bash_profile
-```
-
-## Step 3: Edit the `.bash_profile`
-
-Add the following lines to the `.bash_profile` file:
-
+In your shell configuration file, add:
 ```sh
 alias subl="open -a /Applications/Sublime\ Text.app"
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 ```
-
 Save the file and close the editor.
 
-## Step 4: Reload the `.bash_profile`
+## Step 5: Reload the Configuration File
 
-Reload your `.bash_profile` to apply the changes:
-
+Apply the changes by sourcing your configuration file:
 ```sh
-source ~/.bash_profile
+source ~/.zshrc # for zsh
+source ~/.bash_profile # for bash
 ```
 
-## Step 5: Test Sublime Text Command
+## Step 6: Test Sublime Text Command
 
-Now, you should be able to open folders or files in Sublime Text using the `subl` command. For example:
-
+You should now be able to open folders or files in Sublime Text using the `subl` command:
 ```sh
 subl .
-subl ~/.bash_profile
+subl new_file.txt
 ```
 
 # Launching Sublime Text from Git Bash on Windows
