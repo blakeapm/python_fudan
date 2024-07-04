@@ -5,10 +5,9 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
 ## For Windows Users
 
 1. **Install Sublime Text**: Download and install Sublime Text from the [official Sublime Text website](https://www.sublimetext.com).
-2. **Uninstall Git Bash** if you have installed it already
-3. **Install Git Bash**: Download and install Git Bash to use Git and Unix-style command-line tools from [Git for Windows](https://gitforwindows.org).
-4. **Uninstall Python 3** if you installed it already
-5. **Install Python 3**:
+2. **Install Git Bash**: Download and install Git Bash to use Git and Unix-style command-line tools from [Git for Windows](https://gitforwindows.org).
+3. **Uninstall Python 3** if you installed it already
+4. **Install Python 3**:
    - Visit the [Python Downloads page for Windows](https://www.python.org/downloads/windows/).
    - Click on "Latest Python 3 Release".
    - Scroll down to click the link to download the file. Choose either the Windows 32-bit or 64-bit installer.
@@ -27,7 +26,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
       4. Click Install.
       5. Click disable path length limit.
       6. Click CLose
-4. **Verify Python Installation**:
+5. **Verify Python Installation**:
    - Open Git Bash.
    - Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
 
