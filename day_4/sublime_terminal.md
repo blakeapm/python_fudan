@@ -32,27 +32,17 @@ For bash users:
 open ~/.bash_profile
 ```
 
-If the file does not exist, create it:
+If the file does not exist, create it and open it again:
 
 For zsh:
 ```sh
 touch ~/.zshrc
-```
-
-For bash:
-```sh
-touch ~/.bash_profile
-```
-
-Then open it again: 
-
-For zsh:
-```sh
 open ~/.zshrc
 ```
 
 For bash:
 ```sh
+touch ~/.bash_profile
 open ~/.bash_profile
 ```
 
