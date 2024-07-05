@@ -15,11 +15,11 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
       1. The first installation window shows two checkboxes. Make sure both are checked:
           - "Use admin privileges when installing py.exe"
           - "Add python.exe to PATH"
-      ![](figures/python_1_.png)
+      ![](figures/python_1.png)
       2. Click custom installation. Check all boxes. Press Continue.
-      ![](figures/python_2_.png)
+      ![](figures/python_2.png)
       3. Make sure all these boxes are selected:
-      ![](figures/python_3_.png)
+      ![](figures/python_3.png)
           - "Install Python 3.12 for all users"
           - "Associate files with Python (requires the 'py' launcher)"
           - "Create shortcuts for installed applications"
@@ -27,7 +27,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
           - "Precompile standard library"
       4. Click Install.
       5. Click disable path length limit.
-      ![](figures/python_3_.png)
+      ![](figures/python_4.png)
       6. Click CLose
 5. **Verify Python Installation**:
    - Open Git Bash.
@@ -48,11 +48,11 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
       - On the left sidebar, you'll find `高级系统设置` (Advanced system settings). Click on it.
    5. **环境变量 (Environment Variables)**
       - In the System Properties window that opens, go to the `高级` (Advanced) tab.
-      ![](figures/path_1_.png)
+      ![](figures/path_1.png)
       - Click on the `环境变量` (Environment Variables) button near the bottom of the tab.
-      ![](figures/path_2_.png)
+      ![](figures/path_2.png)
    6. Double click on `Path` and click `新建` (New). Paste the path to your `python.exe` file. It should be somewhere like `C:\Program Files\Python312\python.exe`. Move the position of the path to the top with `上移` (Up). Click `确定` (Confirm).
-      ![](figures/path_3_.png)
+      ![](figures/path_3.png)
 7. Close Git Bash and reopen it. Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
 
 ## For Mac Users
