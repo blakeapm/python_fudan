@@ -16,7 +16,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
           - "Use admin privileges when installing py.exe"
           - "Add python.exe to PATH"
       ![](figures/python_1.png)
-      2. Click custom installation. Check all boxes. Press Next.
+      2. Click "Customize installation." Check all boxes. Click Next.
       ![](figures/python_2.png)
       3. Make sure all these boxes are selected:
       ![](figures/python_3.png)
