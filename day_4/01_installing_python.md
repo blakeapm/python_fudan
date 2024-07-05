@@ -32,7 +32,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
 5. **Verify Python Installation**:
    - Open Git Bash.
    - Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
-6. **If Git Bash does not recognize Python:** we need to edit our PATH file to ensure that it does.
+6. **If Git Bash does not recognize Python:** we need to edit our PATH file to ensure that it does. These instructions broadly follow the tutorial !(https://realpython.com/add-python-to-path/)[here]
 
    1. **打开控制面板 (Open Control Panel)**
       - Press `Win + S` to open the search bar.
