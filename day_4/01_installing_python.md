@@ -51,8 +51,11 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
       ![](figures/path_1.png)
       - Click on the `环境变量` (Environment Variables) button near the bottom of the tab.
       ![](figures/path_2.png)
-   6. Double click on `Path` and click `新建` (New). Paste the path to your `python.exe` file. It should be somewhere like `C:\Program Files\Python312\python.exe`. Move the position of the path to the top with `上移` (Up). Click `确定` (Confirm).
+   6. Double click on `Path`. You will see the screen below:
       ![](figures/path_3.png)
+   7. Click `新建` (New). Paste the path to your `python.exe` file. It should be somewhere like `C:\Program Files\Python312\python.exe`.
+   8. Move the position of the path to the top with `上移` (Up).
+   9. Click `确定` (Confirm)
 7. Close Git Bash and reopen it. Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
 
 ## For Mac Users
