@@ -18,7 +18,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
       ![](figures/python_1.png)
       2. Click "Customize installation." Check all boxes. Click Next.
       ![](figures/python_2.png)
-      3. Make sure all these boxes are selected:
+      3. Make sure all boxes except the last two in the image below are selected:
       ![](figures/python_3.png)
           - "Install Python 3.12 for all users"
           - "Associate files with Python (requires the 'py' launcher)"
