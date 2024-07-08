@@ -7,7 +7,7 @@
 ### Slide 2: Searching with re.search
 
 import re
-search = re.search(r'[A-Za-z]+\-[A-Za-z]+', 'LSE -Fudan Summer School')
+search = re.search(r'[A-Za-z0-9]+\-[A-Za-z0-9]+', 'LSE-Fudan Summer School')
 print(search)
 print(search.start())
 print(search.end())
@@ -20,6 +20,10 @@ result = re.sub(r'[A-Za-z]+\-[A-Za-z]+', 'Day 5 of', 'LSE -Fudan Summer School')
 print(result)
 result = re.sub(r'([A-Z]+|[0-9]+)', '***', 'ABC abc 123')
 print(result)
+
+import re
+re.split(r'(，|,)+', "Text1,Text2")
+re.split(r'(，|,)+', "Text1，Text2")
 
 #########################################################
 #                                                       #
@@ -140,6 +144,32 @@ class_teachers = {
 }
 print(class_teachers['Miller'])
 
+### Additional class example
+
+************************************************************************
+
+example = [
+    'element', 'element', 'element', 'element', 'element', 'element',
+    'element', 'element', 'element', 'element', 'element', 'element',
+    'element', 'element', 'element', 'element', 'element', 'element',
+    'element', 'element', 'element', 'element'
+]
+course_info = [
+    {
+        'last_name' : 'Miller',
+        'first_name' : 'Blake',
+        'course_name' : 'Python...'
+    },
+    {
+        'last_name' : 'Hildebrandt',
+        'first_name' : 'Timothy',
+        'course_name' : 'Social...'
+    },
+]
+
+for ci in course_info:
+    print(ci['first_name'], ci['last_name'])
+
 ### Slide 20: Dictionary Operations
 
 class_teachers['Ding'] = 'Comparative Public Policy'
@@ -166,6 +196,12 @@ student_count = {'Miller': 10, 'Hildebrandt': 15, 'Ding': 10}
 for prof in student_count:
     print(prof, student_count[prof])
 
+### Example from class
+
+student_count = {'Miller': 10, 'Hildebrandt': 15, 'Ding': 10}
+for name, n_students in student_count.items():
+    print(name, n_students)
+
 ### Slide 23: Reverse Lookup
 
 def reverse_lookup(d, v):
@@ -174,9 +210,27 @@ def reverse_lookup(d, v):
             return k
     raise ValueError('Value does not appear in the dictionary')
 
+### Example from class
+
+def reverse_lookup(input_dict, search_value):
+    matched_keys = []
+    for key in input_dict:
+        if input_dict[key] == search_value:
+            matched_keys.append(key)
+    return matched_keys
+
+example_dictionary = {
+    'a' : 1,
+    'b' : 1,
+    'c' : 5,
+    'd' : 5,
+}
+
+reverse_lookup(1)
+
 h = histogram('brontosaurus')
 try:
-    print(reverse_lookup(h, 2))
+    print(reverse_lookup(h, 20))
 except ValueError as e:
     print(e)
 
