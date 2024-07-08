@@ -6,8 +6,11 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
 
 1. **Install Sublime Text**: Download and install Sublime Text from the [official Sublime Text website](https://www.sublimetext.com).
 2. **Install Git Bash**: Download and install Git Bash to use Git and Unix-style command-line tools from [Git for Windows](https://gitforwindows.org).
-3. **Uninstall Python 3** if you installed it already
-4. **Install Python 3**:
+   - Make sure you select all the items selected in the images below:
+   ![](figures/gitbash_1.png)
+   ![](figures/gitbash_2.png)
+4. **Uninstall Python 3** if you installed it already
+5. **Install Python 3**:
    - Visit the [Python Downloads page for Windows](https://www.python.org/downloads/windows/).
    - Click on "Latest Python 3 Release".
    - Click "Download Windows installer (64-bit)
@@ -29,10 +32,10 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
       5. Click disable path length limit.
       ![](figures/python_4.png)
       6. Click CLose
-5. **Verify Python Installation**:
+6. **Verify Python Installation**:
    - Open Git Bash.
    - Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
-6. **If Git Bash does not recognize Python:** we need to edit our PATH file to ensure that it does.
+7. **If Git Bash does not recognize Python:** we need to edit our PATH file to ensure that it does.
    1. **打开控制面板 (Open Control Panel)**
       - Press `Win + S` to open the search bar.
       - Type `控制面板` and press Enter to open Control Panel.
@@ -55,7 +58,7 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
    7. Click `新建` (New). Paste the path to your `python.exe` file. It should be somewhere like `C:\Program Files\Python312\python.exe`.
    8. Move the position of the path to the top with `上移` (Up).
    9. Click `确定` (Confirm)
-7. Close Git Bash and reopen it. Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
+8. Close Git Bash and reopen it. Type `python --version` to check if Python 3 is accessible. If this command doesn't work, try `python3 --version`.
 
 ## For Mac Users
 
