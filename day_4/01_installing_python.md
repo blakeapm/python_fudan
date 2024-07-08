@@ -7,8 +7,11 @@ This course is taught in Python, using Python 3. You will need to have Python 3 
 1. **Install Sublime Text**: Download and install Sublime Text from the [official Sublime Text website](https://www.sublimetext.com).
 2. **Install Git Bash**: Download and install Git Bash to use Git and Unix-style command-line tools from [Git for Windows](https://gitforwindows.org).
    - Make sure you select all the items selected in the images below:
+     
    ![](figures/gitbash_1.png)
+
    ![](figures/gitbash_2.png)
+   
 4. **Uninstall Python 3** if you installed it already
 5. **Install Python 3**:
    - Visit the [Python Downloads page for Windows](https://www.python.org/downloads/windows/).
