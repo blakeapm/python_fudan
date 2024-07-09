@@ -13,6 +13,24 @@ print(search.start())
 print(search.end())
 print(search.group())
 
+### In class example
+
+# Call to action
+cta = 'Enroll in the LSE-Fudan Summer School.'
+cta_alt = 'Enroll in the Fudan-LSE Summer School.'
+
+anchor_start = '<a href="http://fudan.edu.cn/something">'
+anchor_end = '</a>'
+
+search = re.search(r'[A-Za-z0-9]+\-[A-Za-z0-9]+\sSummer\sSchool', cta)
+start_idx, stop_idx = search.start(), search.end()
+new_cta = cta[:start_idx] + anchor_start + cta[start_idx:stop_idx] + anchor_end + cta[stop_idx:]
+
+search = re.search(r'[A-Za-z0-9]+\-[A-Za-z0-9]+\sSummer\sSchool', cta)
+start_idx, stop_idx = search.start(), search.end()
+new_cta_alt = cta_alt[:start_idx] + anchor_start + cta_alt[start_idx:stop_idx] + anchor_end + cta_alt[stop_idx:]
+
+
 ### Slide 3: Using re.sub for Substitutions
 
 import re
@@ -198,9 +216,15 @@ for prof in student_count:
 
 ### Example from class
 
-student_count = {'Miller': 10, 'Hildebrandt': 15, 'Ding': 10}
+student_count = {'Miller': '10', 'Hildebrandt': '15', 'Ding': '10'}
+
 for name, n_students in student_count.items():
     print(name, n_students)
+
+instr_count_tups = list(student_count.items())
+joined_key_vals = [' '.join(mapping) for mapping in instr_count_tups]
+print(', '.join(joined_key_vals))
+
 
 ### Slide 23: Reverse Lookup
 
@@ -284,6 +308,22 @@ t = [0, 1, 2]
 zipped = list(zip(s, t))
 print(zipped)
 
+### In class example
+
+# Separate data on measures for each research subject
+subject_id = list(range(10))
+score = [5,3,2,5,4,3,1,1,4,1]
+gender = [-1,0,1,1,-1,1,1,-1,1,0]
+
+# Create list of tuples by research subject
+subject_data = list(zip(subject_id, score, gender))
+print(subject_data)
+print(subject_data[0])
+
+# Get lists back from list of tuple
+subject_id, score, gender = list(zip(*subject_data))
+print(subject_id)
+
 ### Slide 30: Iterating through Lists of Tuples
 
 t = [('a', 0), ('b', 1), ('c', 2)]
@@ -307,6 +347,25 @@ print(squares)
 names = ['Yuki', 'Jorge', 'Mei', 'Aya']
 lengths = [len(name) for name in names]
 print(lengths)
+
+import numpy as np
+
+from strokes import strokes
+
+names = [
+    '李程宇恒', '和潇恒', '王铭培', '李耀', '鲁果', '林鑫磊',
+    '蔡欢晨', '胡欣源', '洪欣语', '周子程', '徐凯', '刘莹'
+]
+
+def stroke_count(name):
+    stroke_count = np.sum(strokes(name))
+    print(f"Name: {name}, Stroke Count: {stroke_count}")
+    return stroke_count
+
+stroke_counts = [stroke_count(name) for name in names]
+print(stroke_counts)
+
+stroke_count_dict = {name : stroke_count(name) for name in names}
 
 ### Slide 33: Dictionary Comprehensions
 
