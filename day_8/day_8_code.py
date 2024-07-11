@@ -64,6 +64,27 @@ try:
 except IndexError as e:
     print(e)
 
+# In class example of failing silently
+
+test = [1, 2, 3]
+try:
+    print(elephant)
+except:
+    pass
+
+# In class example of actually handling exceptions
+
+test = [1, 2, 3]
+try:
+    print(test[4])
+except IndexError as e:
+    last = len(test) - 1
+    print(test[last])
+    print("Out of bounds, printed last element, Error:", e)
+except NameError:
+    print("Encountered undefined variable. Error:", e)
+    raise NameError("Need to define variable before accessing.")
+
 # TypeError example
 test = [1, 2, 3]
 try:
@@ -221,3 +242,45 @@ import pandas as pd
 s = pd.Series([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 print(s.head(3))  # Display the first 3 elements
 print(s.tail(3))  # Display the last 3 elements
+
+### Slide 45: Subsetting by Numerical Index in Series
+
+s = pd.Series([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+# Access by index
+print(s[[0, 2, 4, 6, 8]])  # Odd positioned elements
+
+### Slide 46: Subsetting by Named Index in Series
+
+s = pd.Series([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+s.index = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+print(s[['a', 'c', 'e', 'g', 'i']])
+
+### Slide 47: Operator Broadcasting in Series
+
+import pandas as pd
+s = pd.Series([1, 2, 3, 4])
+print(s + 1)  # Increment each element by 1
+print(s * 2)  # Double each element
+
+### Slide 48: Handling Missing Values in Series
+
+s = pd.Series([1, 2, None, 4])
+print(s.fillna(0))  # Replace None with 0
+print(s.dropna())  # Remove elements that are None
+
+### Slide 49: Computing Statistics with Series
+
+s = pd.Series([1, 2, 3, 4, 5])
+print(s.sum())
+print(s.mean())
+print(s.median())
+print(s.std())
+print(s.prod())
+print(s.max())
+print(s.argmax())
+
+### Slide 50: Summary Statistics in Series
+
+s = pd.Series([1, 2, 3, 4, 5])
+print(s.describe())  # Summary statistics
