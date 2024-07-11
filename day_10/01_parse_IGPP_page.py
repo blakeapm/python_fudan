@@ -19,7 +19,8 @@ def get_url_source(url):
         return response.content
 
 # Set the base directory to save the file in
-base_dir = '/Users/MILLERBA/Downloads/'
+#base_dir = '/Users/your-user-name/Documents/python_fudan/'
+base_dir = '/Users/lcl-admin/Documents/python_fudan/day_10/'
 
 # Check if we've scraped it already
 if not os.path.isfile(base_dir + 'course_overview_fudan.html'):
@@ -58,7 +59,6 @@ for div in divs:
     if len(title_affiliation) == 1:
         title_affiliation = title_affiliation[0].split('，')
 
-    print(title_affiliation)
     title, affiliation = title_affiliation
 
     # Extract the time and session number
@@ -103,8 +103,8 @@ for div in divs:
 
 # Output the data as a csv
 courses_df = pd.DataFrame(rows)
-courses_df.to_csv('/Users/MILLERBA/Downloads/course_info.csv', index=False)
+courses_df.to_csv(base_dir + 'course_info.csv', index=False)
 
 # Output the list of row dictionaries
 courses_df = pd.DataFrame(rows)
-courses_df.to_csv('/Users/MILLERBA/Downloads/course_info.csv', index=False)
+courses_df.to_csv(base_dir + 'course_info.csv', index=False)

@@ -64,6 +64,11 @@ print(penguins.iloc[10:15])
 
 print(penguins[penguins['body_mass_g'] > 4000].head())
 
+# In class example: all male penguins of species Adelie
+
+male_adelie = penguins[(penguins['species'] == "Adelie") & (penguins['sex'] == 'male')]
+
+
 ### Slide 14: Accessing Columns by Name
 
 print(penguins['species'].head(3))
