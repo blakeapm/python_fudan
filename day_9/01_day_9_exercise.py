@@ -13,7 +13,7 @@ and print the working directory with the command `pwd` paste the output in
 place of '/Users/your_username/Documents/python_fudan/day_8'
 '''
 
-working_dir = '/Users/your_username/Documents/python_fudan/day_8'
+working_dir = '/Users/your_username/Documents/python_fudan/day_9'
 
 input_csv_fn = 'twitter_data.csv'
 input_fn = 'twitter_locations.txt'
