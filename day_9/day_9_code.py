@@ -68,7 +68,6 @@ print(penguins[penguins['body_mass_g'] > 4000].head())
 
 male_adelie = penguins[(penguins['species'] == "Adelie") & (penguins['sex'] == 'male')]
 
-
 ### Slide 14: Accessing Columns by Name
 
 print(penguins['species'].head(3))
